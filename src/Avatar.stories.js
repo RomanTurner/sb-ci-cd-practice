@@ -7,11 +7,22 @@ export default {
   component: Avatar,
   argTypes: {
     size: {
+      description: "Overwritten description",
+      table: {
+        type: {
+          summary: "Something short",
+          detail: "Something really really long",
+        },
+      },
       control: {
         type: "select",
       },
       options: ["tiny", "small", "medium", "large"],
     },
+  },
+  parameters: {
+    componentSubtitle:
+      "Displays an image that represents a user or organization",
   },
 };
 
