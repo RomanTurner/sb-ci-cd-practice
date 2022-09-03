@@ -14,3 +14,5 @@ This template ships with the main React configuration files you'll need to get u
 ## 🚅  Quick start
 
 Setting up Vercel deployment with the static build
+
+Trying to set up the static storybook file the output for this build
